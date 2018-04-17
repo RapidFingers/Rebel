@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/RebelClient/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/RebelClient/build" />
+      <excludeFolder url="file://$MODULE_DIR$/RebelCore/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/RebelCore/build" />
+      <excludeFolder url="file://$MODULE_DIR$/RebelServer/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/RebelServer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/TestWeb/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/TestWeb/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

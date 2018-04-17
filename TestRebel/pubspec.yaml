@@ -1,0 +1,19 @@
+name: test_rebel
+description: Test rebel client and server
+version: 0.0.1
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+  rebel_core:
+    path: "../RebelCore"
+  rebel_client:
+    path: "../RebelClient"
+  rebel_server:
+    path: "../RebelServer"
+  binary_data:
+    git: "https://github.com/RapidFingers/BinaryData"
+
+dev_dependencies:
+  test: ^0.12.0

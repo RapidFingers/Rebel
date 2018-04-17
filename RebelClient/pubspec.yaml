@@ -1,0 +1,17 @@
+name: rebel_client
+description: Client for rebel server
+version: 0.0.1
+#homepage: https://www.example.com
+#author: grabli66 <email@example.com>
+
+environment:
+  sdk: '>=2.0.0-dev.26.0'  
+
+dependencies:
+  rebel_core:
+    path: "../RebelCore"
+  binary_data:
+      git: "https://github.com/RapidFingers/BinaryData"
+
+dev_dependencies:
+  test: ^0.12.0

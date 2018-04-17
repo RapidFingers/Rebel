@@ -1,0 +1,17 @@
+name: rebel_core
+description: Core for rebel server and client
+version: 0.0.1
+#homepage: https://www.example.com
+#author: Grabli66 <email@example.com>
+
+environment:
+  sdk: '>=2.0.0-dev.26.0'
+
+dependencies:
+  binary_data:
+    git: "https://github.com/RapidFingers/BinaryData"
+  shelf_web_socket: "^0.2.2"
+  uuid: "^0.5.3"
+
+dev_dependencies:
+  test: ^0.12.0

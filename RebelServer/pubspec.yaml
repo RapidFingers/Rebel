@@ -1,0 +1,17 @@
+name: rebel_server
+description: Server for transporting messages
+version: 0.2.0
+
+environment:
+  sdk: '>=2.0.0-dev.26.0'
+
+dependencies:
+  binary_data:
+    git: "https://github.com/RapidFingers/BinaryData"
+  rebel_core:
+    path: "../RebelCore/"
+  shelf_web_socket: "^0.2.2"
+  uuid: "^0.5.3"
+
+dev_dependencies:
+  test: ^0.12.0
